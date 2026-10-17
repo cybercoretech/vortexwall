@@ -2,8 +2,8 @@
   <img src="assets/vortexwall-brand/vortexwall-hero.svg" alt="VortexWall — bad behavior crosses the threshold, the network forgets the source" width="820">
 </p>
 
-[![CI](https://github.com/cybercore-tech/vortexwall/actions/workflows/ci.yml/badge.svg)](https://github.com/cybercore-tech/vortexwall/actions/workflows/ci.yml)
-[![Release](https://github.com/cybercore-tech/vortexwall/actions/workflows/release.yml/badge.svg)](https://github.com/cybercore-tech/vortexwall/actions/workflows/release.yml)
+[![CI](https://github.com/cybercoretech/vortexwall/actions/workflows/ci.yml/badge.svg)](https://github.com/cybercoretech/vortexwall/actions/workflows/ci.yml)
+[![Release](https://github.com/cybercoretech/vortexwall/actions/workflows/release.yml/badge.svg)](https://github.com/cybercoretech/vortexwall/actions/workflows/release.yml)
 
 `Rust` · `nftables` · `systemd`
 
@@ -16,7 +16,7 @@ replacement for a real firewall (`ufw` handles that baseline); this is the
 ## 📦 Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/cybercore-tech/vortexwall/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/cybercoretech/vortexwall/main/install.sh | sh
 ```
 
 Downloads the latest release for your platform (Linux or macOS, x86_64

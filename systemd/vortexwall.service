@@ -1,6 +1,6 @@
 [Unit]
 Description=VortexWall — active-blackholing firewall (starts in --dry-run; edit ExecStart to enable real bans)
-Documentation=https://github.com/cybercore-tech/vortexwall
+Documentation=https://github.com/cybercoretech/vortexwall
 After=network.target sshd.service
 
 [Service]

@@ -1,6 +1,6 @@
 [Unit]
 Description=VortexWall — active-blackholing firewall (real enforcement, no --dry-run)
-Documentation=https://github.com/cybercore-tech/vortexwall
+Documentation=https://github.com/cybercoretech/vortexwall
 After=network.target sshd.service
 # Never both at once: vortexwall-toggle stops the other before starting this.
 Conflicts=vortexwall.service
