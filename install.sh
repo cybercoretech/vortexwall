@@ -6,7 +6,7 @@
 # Supported: Linux (x86_64, aarch64) and macOS (x86_64, aarch64).
 set -eu
 
-REPO="cybercore-tech/vortexwall"
+REPO="cybercoretech/vortexwall"
 INSTALL_DIR="${VORTEXWALL_INSTALL_DIR:-$HOME/.local/bin}"
 
 die() {
