@@ -13,7 +13,7 @@ use tokio::sync::mpsc;
 #[derive(Parser, Debug)]
 #[command(
     name = "vortexwall",
-    version = "0.1.0",
+    version,
     about = "Watches auth logs and actively blackholes offending IPs via nftables"
 )]
 struct Args {
