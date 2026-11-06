@@ -211,6 +211,59 @@
     .vortex-decor { width: 380px; height: 380px; top: -120px; right: -120px; }
   }
 </style>
+  <link rel="stylesheet" href="https://cybercoretech.github.io/kit/chooser.css">
+  <style>
+    cybercore-theme-chooser{--ccx-bg:var(--graphite);--ccx-fg:var(--white);--ccx-line:var(--steel);--ccx-accent:var(--hotpink);--ccx-focus:var(--indigo-bright);--ccx-field:var(--void);--ccx-muted:var(--muted);--ccx-button-bg:transparent;--ccx-button-border:var(--steel);--ccx-radius:8px;--ccx-button-width:auto;--ccx-height:2.25rem;--ccx-glow:.5;}
+  </style>  <style id="cc-mobile-first">
+/* Mobile floor (phones + tablets): readable text and finger-sized targets.
+   Generated per range from what renders under 11px / 24px; desktop untouched. */
+@media (max-width: 600px) {
+  div.plate-status,
+  span.tag-sm,
+  div.foot-family { font-size: 11px !important; }
+}
+@media (min-width: 601px) and (max-width: 860px) {
+  div.plate-status,
+  span.tag-sm,
+  div.foot-family { font-size: 11px !important; }
+}
+@media (min-width: 861px) and (max-width: 1024px) {
+  div.plate-status,
+  span.tag-sm,
+  div.foot-family { font-size: 11px !important; }
+}
+@media (pointer: coarse) {
+  div.foot-links > a { min-height: 24px; min-width: 24px; }
+  div.install-more > a { display: inline-flex; align-items: center; min-height: 24px; min-width: 24px; }
+}
+/* Mobile floor (phones + tablets): readable text and finger-sized targets.
+   Generated per range from what renders under 11px / 24px; desktop untouched. */
+@media (pointer: coarse) {
+  div.navlinks > a.navlink:not([style]) { min-height: 24px; min-width: 24px; }
+}
+/* Layout fixes: phones and tablets only; laptops and desktops untouched. */
+@media (max-width: 1024px) {
+  /* Mobile first: nothing may make the page wider than the screen.
+     Grid/flex columns may shrink below their widest line; code scrolls in place. */
+  pre { max-width: 100%; overflow-x: auto; }
+  img, video { max-width: 100%; height: auto; }
+  /* Long paths and URLs in inline code may break anywhere instead of widening the page. */
+  :not(pre) > code { overflow-wrap: anywhere; }
+}
+  </style>
+
+
+
+
+
+
+
+
+
+
+  <script>window.SITE = Object.assign(window.SITE || {}, {"siteLabel": "Vortexwall", "themeVars": {"bg": "--void", "panel": "--graphite", "line": "--steel-line", "cyan": "--indigo-bright", "purple": "--indigo", "hot_pink": "--hotpink"}});</script>
+  <script type="module" src="https://cybercoretech.github.io/kit/chooser.js"></script>
+
 
 <svg class="vortex-decor" viewBox="0 0 400 400"><circle cx="200" cy="200" r="190" fill="none" stroke="#2138D6" stroke-width="1" stroke-dasharray="2 12" opacity="0.5"/><circle cx="200" cy="200" r="150" fill="none" stroke="#2138D6" stroke-width="1" stroke-dasharray="1 8" opacity="0.4"/><circle cx="200" cy="200" r="110" fill="none" stroke="#FF2E88" stroke-width="1" stroke-dasharray="1 10" opacity="0.25"/></svg>
 
@@ -223,10 +276,10 @@
     <div class="navlinks">
       <a class="navlink" href="#priority">Priority</a>
       <a class="navlink" href="#install">Install</a>
+      <a class="navlink" data-cybercore-master-docs href="https://cybercoretech.github.io/cybercore/docs.html">Master docs ↗</a>
       <a class="navlink btn btn-ghost" style="padding:7px 15px;font-size:12.5px;" href="https://github.com/cybercoretech/vortexwall" target="_blank" rel="noopener">GitHub</a>
-    </div>
-  </div>
-<a data-cybercore-master-docs href="https://cybercoretech.github.io/cybercore/docs.html" style="color:#22e6ff;border:1px solid #263454;border-radius:999px;padding:7px 12px;text-decoration:none;font:600 .7rem ui-monospace,monospace;letter-spacing:.08em;white-space:nowrap">MASTER DOCS ↗</a></nav>
+    <cybercore-theme-chooser compact match=".navlink:not(.btn)"></cybercore-theme-chooser></div>
+  </div></nav>
 
 <header class="hero">
   <div class="wrap hero-grid">
